@@ -1,0 +1,18 @@
+main:
+  - title: "Книга"
+    url: /book/about_book/
+  - title: "Блог"
+    url: /posts/
+  - title: "Обо мне"
+    url: /about/
+
+# book links
+book:
+  - title: Getting Started
+    children:
+      - title: "About book"
+        url: /book/about_book/
+      - title: "On the exercises and problems"
+        url: /book/exercises_problems/
+      - title: "Using neural nets to recognize handwritten digits"
+        url: /book/chap1/
