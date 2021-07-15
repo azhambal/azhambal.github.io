@@ -1,6 +1,6 @@
 main:
   - title: "Книга"
-    url: /book/about_book/
+    url: /book/index/
   - title: "Блог"
     url: /posts/
   - title: "Обо мне"
@@ -8,11 +8,12 @@ main:
 
 # book links
 book:
-  - title: Getting Started
+  - title: Нейронные сети и глубокое обучение
+    url: /book/index/
     children:
-      - title: "About book"
+      - title: "О чём эта книга"
         url: /book/about_book/
-      - title: "On the exercises and problems"
+      - title: "Об упражнениях и задачах"
         url: /book/exercises_problems/
-      - title: "Using neural nets to recognize handwritten digits"
+      - title: "Использование нейронных сетей для распознавания рукописных цифр"
         url: /book/chap1/
